@@ -2,6 +2,13 @@ body
 {
 	font-family: 'Open Sans', sans-serif;
 }
+article
+{
+	position: relative;
+	top: 5.85vw;
+	left: 55vw;
+	width: 33vw;
+}
 
 
 #logo
@@ -10,9 +17,13 @@ body
 	width: 20vw;
 }
 #image_1
+
 {
+	
 	height: 41vw;
+
 	width: 54vw;
+
 }
 #title_1
 {
@@ -26,6 +37,54 @@ body
 	position: relative;
 	left: 16.7vw;
 	color: hsl(208, 11%, 55%);
+	line-height: 3vw;
+}
+#button_2
+{
+	text-decoration: none;
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 2.5px;
+	position: relative;
+	top: 12.4vw;
+    	left: 37.5vw;
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 1vw;
+    	padding-bottom: 1vw;
+    	padding-left: 6vw;
+    	padding-right: 6vw;
+	z-index: 1; 
+	box-shadow: 1px 1px 2px 0.5px hsl(322, 100%, 60%);
+}
+#image_2
+{
+	position: absolute;
+	width: 37vw;
+	height: 31.5vw;
+	left: 1vw;
+}
+#title_2
+{
+	font-size: 3.2vw;
+}
+#content_2
+{
+	font-size: 1.4vw;
+}
+#button_3
+{
+	text-decoration: none;
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 2.5px;
+	text-transform: capitalize;
+	padding-top: 1vw;
+    	padding-bottom: 1vw;
+    	padding-left: 6vw;
+    	padding-right: 6vw;
+	z-index: 1; 
+	box-shadow: 1px 1px 2px 0.5px hsl(322, 100%, 60%);
 }
 
 
@@ -54,7 +113,7 @@ body
 .image
 {
 	position: relative;
-	left: 21vw;
+	left: 21.5vw;
 	top: 8vw;
 	width: 54vw;
 }
@@ -64,6 +123,12 @@ body
 	text-transform: capitalize;
 	font-weight: 700;
 }
+.title_2
+{
+	font-size: 2vw;
+	margin-top: 3vw;
+	margin-bottom: 1.12vw;
+}
 .main
 {
 	position: relative;
@@ -71,21 +136,34 @@ body
     	/*left: 19.5vw;*/
 	text-align: center;
 }
-#button_2
+.section_2
 {
-	text-decoration: none;
-	color: white;
-	background-color: hsl(322, 100%, 66%);
-	border-radius: 2.5px;
+	top: 39vw;
 	position: relative;
-	top: 12.4vw;
-    	left: 38vw;
+}
+.image_2
+{
+	position: relative;
+	left: 8vw;
+	top: 8vw;
+	width: 54vw;
+}
+.section_3
+{
+	top: 65vw;
 	text-align: center;
-	text-transform: capitalize;
-	padding-top: 1vw;
-    	padding-bottom: 1vw;
-    	padding-left: 6vw;
-    	padding-right: 6vw;
-	z-index: 1; 
-	box-shadow: 1px 1px 2px 0.5px hsl(322, 100%, 60%);
+	position: relative;
+	background-color: hsl(214, 64%, 98%);
+}
+.footer
+{
+	top: 65vw;
+	position: relative;
+}
+.content
+{
+	color: hsl(208, 11%, 55%);
+	line-height: 1.7vw;
+	font-size: 1.2vw;
+	line-height: 1.9vw;
 }
