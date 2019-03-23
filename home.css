@@ -9,6 +9,24 @@ body
 	height: 3.5vw;
 	width: 20vw;
 }
+#image_1
+{
+	height: 41vw;
+	width: 54vw;
+}
+#title_1
+{
+	font-size: 2.9vw;
+}
+#content_1
+{
+	text-align: center;
+	width: 65vw;
+	font-size: 1.95vw;
+	position: relative;
+	left: 16.7vw;
+	color: hsl(208, 11%, 55%);
+}
 
 
 .logo
@@ -29,6 +47,44 @@ body
     	padding-left: 6vw;
     	padding-right: 6vw;
 	width: 85px;
-	border-radius: 4px;
-	text-color: hsl(322, 100%, 66%)
+	border-radius: 2.5px;
+	color: hsl(322, 100%, 66%);
+	box-shadow: 1px 1px 2px 0.5px hsl(208, 11%, 55%);
+}
+.image
+{
+	position: relative;
+	left: 21vw;
+	top: 8vw;
+	width: 54vw;
+}
+.title
+{
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.main
+{
+	position: relative;
+	top: 10vw;
+    	/*left: 19.5vw;*/
+	text-align: center;
+}
+#button_2
+{
+	text-decoration: none;
+	color: white;
+	background-color: hsl(322, 100%, 66%);
+	border-radius: 2.5px;
+	position: relative;
+	top: 12.4vw;
+    	left: 38vw;
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 1vw;
+    	padding-bottom: 1vw;
+    	padding-left: 6vw;
+    	padding-right: 6vw;
+	z-index: 1; 
 }
